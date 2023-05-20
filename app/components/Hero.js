@@ -295,7 +295,7 @@ const Hero = () => {
   }, []); // <- empty dependency Array so it doesn't re-run on every render
 
   return (
-    <div className="main overflow-hidden" ref={app}>
+    <div className="main " ref={app}>
       <div className="text-left left-5 flex flex-row justify-center items-center  top-28 absolute">
         <div className="flex flex-col before:content-[''] before:w-[2px] before:h-[80px] before:self-center before:bg-black after:content-[''] after:w-[2px] after:h-[80px] after:self-center after:bg-black">
           {" "}

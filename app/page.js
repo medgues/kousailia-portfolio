@@ -9,13 +9,13 @@ import Gallery from "./components/Gallery";
 export default function Home() {
   return (
     <main className="background">
-      <section className="h-screen overflow-hidden">
+      <section className="h-screen ">
         <Hero />
       </section>
-      <section className="h-screen flex">
+      <section className="h-screen flex backgroundGradiant z-10 relative ">
         <About />
       </section>
-      <section className="h-[120vh] overflow-x-hidden">
+      <section className="h-[120vh] backgroundGradiant  ">
         <Gallery />
       </section>
       <section className="h-auto sm:h-[120vh] ">
