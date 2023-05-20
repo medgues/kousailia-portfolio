@@ -1,6 +1,6 @@
 import React from "react";
-import { TbMailFast } from "react-icons/Tb";
-import { BsWhatsapp } from "react-icons/Bs";
+// import { TbMailFast } from "react-icons/Tb";
+// import { BsWhatsapp } from "react-icons/Bs";
 
 const Contact = () => {
   return (
@@ -14,7 +14,7 @@ const Contact = () => {
           <h3 className="font-Abhaya text-xl font-bold mb-4">Talk to Me</h3>
           <div className="">
             <div className="contact_card background flex flex-col justify-center items-center my-1">
-              <TbMailFast size={55} />
+              {/* <TbMailFast size={55} /> */}
               <h3>Email</h3>
               <span className="text-gray-500 mb-2">span@span.com</span>
               <button className="cta py-2">
@@ -40,7 +40,7 @@ const Contact = () => {
             </div>
 
             <div className="contact_card background flex flex-col justify-center items-center my-1">
-              <BsWhatsapp size={45} className="m-4" />
+              {/* <BsWhatsapp size={45} className="m-4" /> */}
               <h3>whatsapp</h3>
               <span className="text-gray-500 mb-2">+000 0000 0000</span>
               <button className="cta py-2">

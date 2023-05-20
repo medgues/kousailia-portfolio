@@ -24,7 +24,7 @@ export default function Home() {
       <section className="h-1/2 ">
         <Footer />
       </section>
-      <Navigation />
+      {/* <Navigation /> */}
     </main>
   );
 }
