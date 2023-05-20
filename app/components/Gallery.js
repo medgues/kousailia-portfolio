@@ -1,6 +1,11 @@
 import Image from "next/image";
 import React from "react";
 
+import galleryImg1 from "../../public/img/gallery/1.webp";
+import galleryImg2 from "../../public/img/gallery/2.webp";
+import galleryImg3 from "../../public/img/gallery/3.webp";
+import galleryImg4 from "../../public/img/gallery/4.webp";
+
 const Gallery = () => {
   return (
     <div className="relative flex justify-between items-center h-screen pb-10">
@@ -39,35 +44,35 @@ const Gallery = () => {
       </div>
       <div>
         <Image
-          src={"/img/gallery/1.jpg"}
+          src={galleryImg1}
           height={300}
           width={300}
           className="-z-0 absolute left-[45%] top-[20%] border border-slate-400 px-4 pt-4 pb-10 rounded-sm  bg-white"
           alt="woods landscape"
         />
         <Image
-          src={"/img/gallery/1.jpg"}
+          src={galleryImg1}
           height={300}
           width={300}
           className="-z-0 absolute -rotate-[25deg] left-[60%] top-[9%] border border-slate-400 px-4 pt-4 pb-10 rounded-sm  bg-white"
           alt="woods landscape"
         />
         <Image
-          src={"/img/gallery/2.jpg"}
+          src={galleryImg2}
           height={300}
           width={300}
           className="-z-0 rotate-12 absolute left-[45%] top-[20%] border border-slate-400 px-4 pt-4 pb-10 rounded-sm  bg-white"
           alt="strangers portraits"
         />
         <Image
-          src={"/img/gallery/3.jpg"}
+          src={galleryImg3}
           height={300}
           width={300}
           className="-z-0 rotate-12 absolute left-[85%] top-[20%] border border-slate-400 px-4 pt-4 pb-10 rounded-sm  bg-white"
           alt="fireworks"
         />
         <Image
-          src={"/img/gallery/4.jpg"}
+          src={galleryImg4}
           height={250}
           width={250}
           className="-z-0 rotate-[23deg] absolute left-[65%] top-[50%] border border-slate-400 px-4 pt-4 pb-10 rounded-sm  bg-white"

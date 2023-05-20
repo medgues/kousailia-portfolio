@@ -3,6 +3,7 @@ import React, { useLayoutEffect, useRef } from "react";
 import { gsap } from "gsap";
 import Image from "next/image";
 import { SocialIcon } from "react-social-icons";
+import camerLense from "../../public/img/hero/camera.webp";
 
 const Hero = () => {
   const app = useRef();
@@ -351,7 +352,7 @@ const Hero = () => {
           </p>
           {/* <p className="font-Abhaya text-[50px] text-center">Memories</p> */}
           <Image
-            src="/img/hero/camera.webp"
+            src={camerLense}
             width={500}
             height={300}
             alt="camera objective"
