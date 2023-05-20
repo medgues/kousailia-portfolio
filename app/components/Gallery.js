@@ -11,9 +11,9 @@ const Gallery = () => {
         <p className="w-[70%] font-Abhaya  italic">
           Thought years of experience, I have honed my skills in composition,
           lighting, and post-production to produce stunning visuals that
-          showcase the beauty of my subjects. Whether it's a portrait,
+          showcase the beauty of my subjects. Whether it&apos;s a portrait,
           landscape, or event, I approach each project with passion and
-          dedication, striving to deliver images that exceed my clients'
+          dedication, striving to deliver images that exceed my clients&apos;
           expectations.{" "}
         </p>
         <button className="cta mt-8">
@@ -43,30 +43,35 @@ const Gallery = () => {
           height={300}
           width={300}
           className="-z-0 absolute left-[45%] top-[20%] border border-slate-400 px-4 pt-4 pb-10 rounded-sm  bg-white"
+          alt="woods landscape"
         />
         <Image
           src={"/img/gallery/1.jpg"}
           height={300}
           width={300}
           className="-z-0 absolute -rotate-[25deg] left-[60%] top-[9%] border border-slate-400 px-4 pt-4 pb-10 rounded-sm  bg-white"
+          alt="woods landscape"
         />
         <Image
           src={"/img/gallery/2.jpg"}
           height={300}
           width={300}
           className="-z-0 rotate-12 absolute left-[45%] top-[20%] border border-slate-400 px-4 pt-4 pb-10 rounded-sm  bg-white"
+          alt="strangers portraits"
         />
         <Image
           src={"/img/gallery/3.jpg"}
           height={300}
           width={300}
           className="-z-0 rotate-12 absolute left-[85%] top-[20%] border border-slate-400 px-4 pt-4 pb-10 rounded-sm  bg-white"
+          alt="fireworks"
         />
         <Image
           src={"/img/gallery/4.jpg"}
           height={250}
           width={250}
           className="-z-0 rotate-[23deg] absolute left-[65%] top-[50%] border border-slate-400 px-4 pt-4 pb-10 rounded-sm  bg-white"
+          alt="singer in the streets"
         />
       </div>
     </div>

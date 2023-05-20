@@ -7,7 +7,7 @@ const Contact = () => {
     <div className="text-center pt-5">
       <h2 className="font-Abhaya text-3xl font-bold">Get in Touch</h2>
       <span className="font-Abhaya text-xl text-gray-500 italic">
-        If you'd like to talk about a project, or my work, you can
+        If you&apos;d like to talk about a project, or my work, you can
       </span>
       <div className="flex flex-col sm:flex-row w-4/5 m-auto mt-4 ">
         <div className="sm:w-1/2 flex flex-col">
